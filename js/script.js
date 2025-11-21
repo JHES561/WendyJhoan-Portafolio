@@ -14,7 +14,7 @@ resizeCanvas();
 let bubbles = Array.from({ length: 40 }, () => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
-  r: Math.random() * 6 + 4, // Aumentamos el tamaño de las burbujas
+  r: Math.random() * 6 + 4, // Aumetamos el tamaño de las burbujas
   d: Math.random() + 1
 }));
 
